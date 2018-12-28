@@ -28,9 +28,9 @@ sort(), map(), filter(), reduce(), includes() 등 유용한 메소드가 많이 
 
 <br>
 
-**reduce()로 할수 있는 수 많은 방법들**
+**reduce()**
 
-reduce 콜백 함수가 받는 첫번째 매개변수는 배열이 줄어드는 대상인 어큐뮬레이터, 두번째 부터는 현재 배열 요소, 현재 인덱스, 배열 자체이다. 
+reduce callback의 매개변수는 배열이 줄어드는 대상인 어큐뮬레이터, 두번째 부터는 현재 배열 요소, 현재 인덱스, 배열 자체이다. 
 
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
@@ -38,15 +38,21 @@ https://medium.com/@hongkevin/js-3-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD
 
 <br>
 
-**sort() 메소드**
+**sort()**
 
-코딩 테스트에서 사용된 프로그래밍 언어 중 C++과 Python에는 안정 정렬이 있고, Java와 JavaScript, Swift에는 안정 정렬이 없습니다. PHP 언어는 숫자 값을 고려해 정렬하는 natsort()를 기본 함수로 제공하기도 합니다. (아쉽게도 문제 3과 조건이 달라 그대로는 쓸 수 없지만요.)
+코딩 테스트에서 사용된 프로그래밍 언어 중 C++과 Python에는 안정 정렬이 있고, Java와 JavaScript, Swift에는 안정 정렬이 없다.
 
 기본 정렬 함수가 안정 정렬을 지원하지 않거나, 이 문제처럼 비교 조건이 까다로운 경우에는 decorate-sort-undecorate 패턴을 이용해서 푼다.
 
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 
-생활코딩 댓글에 원리 : 
+소팅 메소드 사용 가이드 : https://tonks.tistory.com/124
+
+멀티소팅 : http://cyberx.tistory.com/16
+
+소팅 메소드 기본 : http://dudmy.net/javascript/2015/11/16/javascript-sort/
+
+생활코딩 댓글에 sort() 원리 : 
 https://opentutorials.org/course/50/109
 
 카카오 3번 문제 : 

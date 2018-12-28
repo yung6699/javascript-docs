@@ -14,3 +14,8 @@
 - Learning Javascript Data Structures and Algorithms
 - DOM을 깨우치다.
 - 모던 자바스크립트 입문
+
+
+# 참고 링크
+
+- https://helloworldjavascript.net/pages/140-string.html
