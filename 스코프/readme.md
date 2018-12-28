@@ -53,33 +53,7 @@ f1() // test
 
 <br/>
 
-## **호이스팅(hoisting)**
-Hoisting => 끌어올리기, 들어 올려 나르기라는 뜻 JS에서는 변수 선언문을 끌어올린다는 의미
 
-변수 선언문이 유효범위(함수범위) 안의 제일 상단부로 끌어올려 지게 되고, 선언문이 있던 자리에서 초기화가 된다.  
-함수 선언문 역시 호이스팅이 된다.
-
-```javascript
-
-var test = "global"
-function func(){
-  console.log(test);
-  var test = "local"
-  console.log(test);
-}
-
-// 호이스팅 된 상태
-var test = "global"
-function func(){
-  var test;
-  console.log(test);
-  test = "local"
-  console.log(test)
-}
-
-``` 
-
-<br/>
 
 ## **실행 컨텍스트**
 

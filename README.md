@@ -18,4 +18,5 @@
 
 # 참고 링크
 
-- https://helloworldjavascript.net/pages/140-string.html
+- https://helloworldjavascript.net
+- https://poiemaweb.com/
