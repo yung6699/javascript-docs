@@ -50,6 +50,8 @@ func02() // yoon
 
 ### 사용하면 안되는 경우
 
+https://hanjungv.github.io/2018-02-03-1_JS_arrow_function/
+
 1. 객체에 메소드 선언시
 
 ```javascript
@@ -97,4 +99,6 @@ document.getElementById("todos").addEventListener("click", () => {
 [http://poiemaweb.com/es6-arrow-function](http://poiemaweb.com/es6-arrow-function)
 
 [https://jaeyeophan.github.io/2017/04/18/ES6-2-Arrow-function/](https://jaeyeophan.github.io/2017/04/18/ES6-2-Arrow-function/)
+
+[https://beomi.github.io/2017/07/12/understanding_js_scope_function_vs_arrow/](https://beomi.github.io/2017/07/12/understanding_js_scope_function_vs_arrow/)
 

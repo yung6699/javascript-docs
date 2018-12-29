@@ -1,5 +1,9 @@
 # 자주 쓰는 Array 함수들
 
+**알아두면 좋은 Array 메소드**
+
+https://medium.com/@ryuhangyeong00/%EC%95%8C%EC%95%84%EB%91%90%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%B0%B0%EC%97%B4-%EB%A9%94%EC%86%8C%EB%93%9C-7cd469de880c
+
 ### 1. 배열의 특정값을 찾을때 indexOf, lastIndexOf 활용
 
 ```javascript

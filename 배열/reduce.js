@@ -66,3 +66,14 @@ const reducer02 = (accumulator, value, index, array) => {
 
 let getMean = data.reduce(reducer02, 0);
 console.log(getMean); // 3.142857142857143
+
+
+/* 
+  JavaScript에서 string을 replaceAll 하고싶을 때
+ */
+
+const replaceAll = (str, searchStr, replaceStr) => {
+  return str.split(searchStr).join(replaceStr);
+}
+
+replaceAll("javascript", "a", "b") // 'jbvbscript'

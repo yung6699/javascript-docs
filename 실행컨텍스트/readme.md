@@ -14,6 +14,7 @@
 
 - [브라우저의 JavaScript 코드 실행 과정](https://helloworldjavascript.net/pages/285-async.html)
 - [Javascript 이벤트 처리](https://poiemaweb.com/js-event)
+- [How JavaScript works](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
 
 <br/>
 
@@ -26,3 +27,6 @@
 - this가 가리키는 객체
 
 현재 실행되는 컨텍스트에서 이 컨텍스트와 관련없는 실행코드가 실행되면 새로운 컨텍스트가 생성되어 콜스택에 들어가고 제어권이 그 컨텍스트로 이동한다.
+
+## 참고
+[https://blog.naver.com/gi_balja/221261731281](https://blog.naver.com/gi_balja/221261731281)

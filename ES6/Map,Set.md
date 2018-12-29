@@ -65,3 +65,7 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Se
 ## 참고
 
 https://shin-ae.github.io/2017/11/18/es6-05/
+
+http://chanlee.github.io/2016/08/15/hello-es6-part-3/
+
+https://medium.com/@hongkevin/js-5-es6-map-set-2a9ebf40f96b
