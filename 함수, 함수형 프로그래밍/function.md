@@ -1,4 +1,4 @@
-# function 
+# 함수 (function) 
 
 ### 일급
  - 값으로 다룰 수 있다.
@@ -11,7 +11,7 @@
   const add1 = a => a + 1;
   console.log(add1(a));
 ```
-    
+<br/>    
 
 ### 일급 함수
  - 함수를 값으로 다룰 수 있다.
@@ -28,7 +28,7 @@
   const f2 = f();
   console.log((f())());
 ```
-    
+<br/>  
 
 ### 고차 함수
  - 함수를 값으로 다루는 함수
@@ -51,6 +51,7 @@
   times(a => console.log(a + 10), 3);
 ```
         
+<br/>
 
 ### 순수 함수
  - 부수 효과가 없고, 같은 인자를 받으면 항상 같은 결과를 리턴하는 함수
@@ -68,9 +69,12 @@ const operand = 2;
 const multiple = num => (num * operand);
 ```
 
+<br/>
 
 ### 부수효과
  - 외부 세상에 변화에게 영향을 받거나 영향을 주는 것 (Side effect)
+
+<br/>
 
 ## 참고
 

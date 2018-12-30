@@ -28,7 +28,7 @@ sort(), map(), filter(), reduce(), includes() 등 유용한 메소드가 많이 
 
 <br>
 
-**reduce()**
+### reduce()
 
 reduce callback의 매개변수는 배열이 줄어드는 대상인 어큐뮬레이터, 두번째 부터는 현재 배열 요소, 현재 인덱스, 배열 자체이다. 
 
@@ -41,7 +41,7 @@ https://medium.com/@hongkevin/js-3-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD
 
 <br>
 
-**sort()**
+### sort()
 
 코딩 테스트에서 사용된 프로그래밍 언어 중 C++과 Python에는 안정 정렬이 있고, Java와 JavaScript, Swift에는 안정 정렬이 없다.
 
