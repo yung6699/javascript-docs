@@ -27,10 +27,10 @@
 
 ```javascript
 function outerFunc(){
-    var str = "Free Variable"; // 자유 변수
-  	return function(){
-    	console.log(str);
-  	}  
+  let str = "Free Variable"; // 자유 변수
+  return function(){
+    console.log(str);
+  }  
 }
 
 var inner = outerFunc();
